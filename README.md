@@ -13,7 +13,6 @@ When executed, `troubleshoot.sh` will create a timestamped log collection folder
 
 ```
 /tmp/KandjiTroubleshooting_$DATE
-├── README.md <- You are here
 ├── after
 │   ├── a_airport.log
 │   ├── a_bluetooth.log
