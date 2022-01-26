@@ -38,7 +38,7 @@ This will be zipped and sent to an ftp server that is set in `troubleshoot.sh`. 
 
 ## Misc.
 
-This process has been tested on macOS 12.2
+This process has been tested on macOS 12.2 with bash/sh having Full Disk Access (this is typically applied via MDM.
 
 ### Testing
 To Test that this is functioning you can run:
