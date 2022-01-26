@@ -33,7 +33,7 @@ This will be zipped and sent to an ftp server that is set in `troubleshoot.sh`. 
 ## Installation
 
 1. Clone this repo
-2. `cd filewatch`
+2. `cd filewatcher`
 3. `sudo chmod +x install.sh; sudo ./install.sh`
 
 ## Misc.
