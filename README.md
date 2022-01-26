@@ -37,3 +37,15 @@ This will be zipped and sent to an ftp server that is set in `troubleshoot.sh`. 
 3. `sudo chmod +x install.sh; sudo ./install.sh`
 
 ## Misc.
+
+This process has been tested on macOS 12.2
+
+### Testing
+To Test that this is functioning you can run:
+
+`sudo touch /var/log/kandji/signal`
+
+Any errors/output should be reported to `/var/log/kandjiErr.log` or `/var/log/kandjiOut.log`. 
+
+Alternatively this could be packaged into a `.pkg` file and `install.sh` should be used as a `postInstall` script instead. This has not been tested. 
+
