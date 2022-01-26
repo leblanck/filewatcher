@@ -132,11 +132,11 @@ logAction "Uploading Logs..."
 # We do not have an active/live server to upload to so the below is commented out, if an active server/location is available this should be updated. 
 #/usr/bin/curl -s -T $collectionDir.zip -u username:PASSWORDHERE ftp://your.ftp-server-here.com/$collectionDir.zip
 
-logAction "Cleaning Up..."
-rm -rf $collectionDir
-
 logAction "*********************************"
 logAction "END LOG COLLECTION"
 logAction "*********************************"
+
+logAction "Cleaning Up..."
+rm -rf $collectionDir
 
 exit 0
